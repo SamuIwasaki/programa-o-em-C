@@ -6,7 +6,7 @@ int main(){
     int soma, subtracao, multiplicacao, divisao;
 
     printf("entre com o número1 : \n");
-    scanf("%d", &numero1)
+    scanf("%d", &numero1);
     printf("entre com o número2: \n");
     scanf("%d",&numero2);
 
@@ -22,9 +22,9 @@ int main(){
     //operação divisão
     divisao = numero1 / numero2;
 
-    printf("A soma é: %d \n":, soma);
-    printf("A subtração é: %d \n":, subtracao);
-    printf("A multiplicação é: %d \n":, multiplicacao);
-    printf("A divisão é: %d \n":, divisao);
+    printf("A soma é: %d \n", soma);
+    printf("A subtração é: %d \n", subtracao);
+    printf("A multiplicação é: %d \n", multiplicacao);
+    printf("A divisão é: %d \n", divisao);
 
 }
