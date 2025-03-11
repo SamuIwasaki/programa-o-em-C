@@ -12,6 +12,8 @@ int main (){
     float area1, area2;
     float PIB1, PIB2;
     int quant_pontos1, quant_pontos2;
+    float densidade1, densidade2;
+    float per1, per2;
 
     //execução das cartas
     //carta 1
@@ -38,6 +40,12 @@ int main (){
     printf("Números de Pontos túristicos: \n");
     scanf("%d", &quant_pontos1);
 
+    printf("densidade Populacional: \n");
+    scanf("%f", &densidade1);
+
+    printf("PIB per capita: \n");
+    scanf("%f", &per1);
+
     //carta 2
     printf("Carta 2:\n");
     printf("digite o estado : \n");
@@ -60,6 +68,12 @@ int main (){
 
     printf("Números de Pontos túristicos: \n");
     scanf("%d", &quant_pontos2);
+
+    printf("densidade Populacional: \n");
+    scanf("%f", &densidade2);
+
+    printf("PIB per capita: \n");
+    scanf("%f", &per2);
 
     //execução da carta1
     printf("estado: %c\n", estado1);
